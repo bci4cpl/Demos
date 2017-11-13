@@ -62,28 +62,28 @@ classdef Infomax < handle
     properties (Access = public)
         
         % Learning rate
-        LearningRate(1,1){mustBePositive} = 0.01;
+        LearningRate = 0.01;
         
         % Number of iterative solve iterations
-        niter(1,1){mustBeInteger, mustBePositive} = 3000;
+        niter = 3000;
         
         % Euler method iterative solution parameter
-        alpha(1,1){mustBePositive,mustBeLessThan(alpha,1)} = 0.2;
+        alpha = 0.2;
         
         % Iterative solve tolerance factor
-        tolfun(1,1){mustBePositive} = 1e-8;
+        tolfun = 1e-8;
         
         % Learn the feed-forward connections?
-        LearnFF(1,1){mustBeLogical} = true;
+        LearnFF = true;
         
         % Learn the recurrent connections?
-        LearnRec(1,1){mustBeLogical} = false;
+        LearnRec = false;
         
         % Feed-forward connections
-        W{mustBeNumeric, mustBeFinite};
+        W;
         
         % Recurrent connections
-        K{mustBeNumeric, mustBeFinite};
+        K;
         
     end
     
@@ -269,15 +269,6 @@ classdef Infomax < handle
         
     end
     
-end
-
-function mustBeLogical(a)
-%MUSTBELOGICAL A simple test if a variable's type is logical
-
-   if (~islogical(a))
-      error('Value assigned to property is not logical. ');
-   end
-   
 end
 
 function A = XavierInitialize(size)

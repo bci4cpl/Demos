@@ -27,7 +27,7 @@ ind3            = 1:n3;
 R               = @(theta) [ cos(theta), sin(theta);
                             -sin(theta), cos(theta)];
 D               = diag([sqrt(3)/sqrt(2), sqrt(2)/2]);
-mu              = [-sqrt(3)/2; 1/2];
+mu              = repmat([-sqrt(3)/2; 1/2], [1, n_samples]);
 X               = D*R(pi/4)*X + mu;             % Reshape into a Rhombus
 X(:, ind3)      = R(2*pi/3)*X(:, ind3);         % Rotate third of the data
 X(:, ind3 + n3) = R(4*pi/3)*X(:, ind3 + n3);	% Rotate third of the data
@@ -71,11 +71,11 @@ for t = 1:n_train
     
     % Plot formatting
     title(sprintf('$$t=%-d$$', t), 'Interpreter', 'latex');
+    set(gca, 'XTick', []);
     xlim([-1, 1]);
-    xticks([]);
     xlabel('$$x_1$$', 'Interpreter', 'latex');
     ylim([-1, 1]);
-    yticks([]);
+    set(gca, 'YTick', []);
     ylabel('$$x_2$$', 'Interpreter', 'latex');
     axis square;
     
