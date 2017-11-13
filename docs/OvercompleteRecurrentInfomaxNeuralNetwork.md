@@ -1,4 +1,4 @@
-[:arrow_left:Back](./README.md)
+[⇐arrow_left:Back](./README.md)
 
 ## Overcomplete Recurrent Infomax Neural Network
 
