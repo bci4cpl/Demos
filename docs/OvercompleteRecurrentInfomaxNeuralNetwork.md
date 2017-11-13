@@ -1,3 +1,5 @@
+[<-- Back](./README.md)
+
 ## Overcomplete Recurrent Infomax Neural Network
 
 Based on the paper: 
