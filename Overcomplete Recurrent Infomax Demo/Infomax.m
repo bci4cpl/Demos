@@ -142,12 +142,11 @@ classdef Infomax < handle
             else
                 % For each sample, solve ds/dt = -s + g(Wx + Ks) using 
                 % Euler's method and find its stable fixed point
-                g   = zeros(obj.Outputs, size(x, 2));
-                gp  = zeros(size(g));
-                gpp = zeros(size(g));
+                s   = zeros(obj.Outputs, size(x, 2));
                 for i = 1:size(x, 2)
-                    [g(:,i), gp(:,i), gpp(:,i)] = obj.gcalc(x(:,i));
+                    s(:,i) = obj.gcalc(x(:,i));
                 end
+                [g, gp, gpp] = gfunc(obj.W*x + obj.K*s);
             end
             
         end
@@ -236,7 +235,7 @@ classdef Infomax < handle
     
     methods (Access = private)
         
-        function [g, gp, gpp] = gcalc(obj, x)
+        function s = gcalc(obj, x)
             %GCALC Solve ds/dt = -s + g(Wx + Ks) using Euler's method and 
             %   find its stable fixed point
             
@@ -256,13 +255,6 @@ classdef Infomax < handle
                     break;
                 end
                 
-            end
-            
-            if (nargout > 1)
-                % Assume fixed point to get the output's derivatives
-                [g, gp, gpp] = gfunc(h + obj.K * s);
-            else
-                g = s;
             end
             
         end
