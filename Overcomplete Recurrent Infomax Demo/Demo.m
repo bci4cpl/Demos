@@ -52,9 +52,12 @@ for t = 1:n_train
     Net.Learn(x);
     
     % Set the plot frequency
-    if ~(rem(t, plot_freq) == 0 || t == n_train)
+	if ~(rem(t, plot_freq) == 0 || t == n_train)
         continue;
-    end
+	end
+	
+	% Get the network's cost
+	cost = Net.GetCost(X);
     
     % Get the network's axes (normalized)
     Wpinv = pinv(Net.W);
@@ -70,7 +73,9 @@ for t = 1:n_train
     hold off;
     
     % Plot formatting
-    title(sprintf('$$t=%-d$$', t), 'Interpreter', 'latex');
+    title([sprintf('$$t=%-d$$', t) ',  ' ...
+		'$$\varepsilon=' sprintf('%-g$$', cost)], ...
+		'Interpreter', 'latex');
     set(gca, 'XTick', []);
     xlim([-1, 1]);
     xlabel('$$x_1$$', 'Interpreter', 'latex');

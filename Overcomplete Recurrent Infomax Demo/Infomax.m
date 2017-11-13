@@ -99,7 +99,7 @@ classdef Infomax < handle
                 error('Infomax must get the network size. ');
             end
             if (inputs > outputs)
-                error('Under-complete networks are not supported. ');
+                error('Undercomplete networks are not supported. ');
             end
             
             obj.Inputs              = inputs;
@@ -252,7 +252,7 @@ classdef Infomax < handle
                 
                 % Check for convergence
                 if (max(abs(s1 - s)) < obj.tolfun)
-                    break;
+                    break; 
                 end
                 
             end
