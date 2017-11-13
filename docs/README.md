@@ -1,3 +1,3 @@
-# Demos: 
+## Demos: 
 
-### [Overcomplete Recurrent Infomax Neural Network](./OvercompleteRecurrentInfomaxNeuralNetwork.md)
+#### [Overcomplete Recurrent Infomax Neural Network](./OvercompleteRecurrentInfomaxNeuralNetwork.md)
