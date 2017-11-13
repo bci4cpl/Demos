@@ -4,4 +4,4 @@
 
 # Demos: 
 
-* [Overcomplete Recurrent Infomax Neural Network](./Overcomplete%20Recurrent%20Infomax%20Neural%20Network/readme.md)
+* [Overcomplete Recurrent Infomax Neural Network](Overcomplete%20Recurrent%20Infomax%20Neural%20Network/readme.md)
