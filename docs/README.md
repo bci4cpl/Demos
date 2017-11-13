@@ -4,7 +4,7 @@
 
 # Demos
 
-[## Overcomplete Recurrent Infomax Neural Network](https://github.com/bci4cpl/Demos/tree/master/Overcomplete%20Recurrent%20Infomax%20Neural%20Network)
+## [Overcomplete Recurrent Infomax Neural Network](https://github.com/bci4cpl/Demos/tree/master/Overcomplete%20Recurrent%20Infomax%20Neural%20Network)
 
 (tested on Matlab versions R2013a to R2017b). 
 
