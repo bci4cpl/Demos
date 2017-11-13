@@ -2,7 +2,7 @@
 
 [![The Computational Psyciatry Lab][cpl-logo]](http://www.computational-psychiatry.com/)
 
-## [Overcomplete Recurrent Infomax Neural Network]
+## Overcomplete Recurrent Infomax Neural Network
 
 The file [Infomax.m](https://github.com/bci4cpl/Demos/edit/master/Overcomplete%20Recurrent%20Infomax%20Neural%20Network/Infomax.m) contains a simple implementation of the overcomplete recurrent Infomax neural network as presented in [Shriki, O., Sompolinsky, H., & Lee, D. D. (2001). An information maximization approach to overcomplete and recurrent representations. In Advances in neural information processing systems (pp. 612-618).](http://papers.nips.cc/paper/1863-an-information-maximization-approach-to-overcomplete-and-recurrent-representations)
 
