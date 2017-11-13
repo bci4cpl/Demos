@@ -1,6 +1,6 @@
 # Demos
 
-## A demo of an overcomplete recurrent Infomax neural network
+## Overcomplete Recurrent Infomax Neural Network
 
 (tested on Matlab versions R2013a to R2017b). 
 
