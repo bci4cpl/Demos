@@ -34,3 +34,9 @@ footer{
    position:relative;
    background: linear_gradient(#DDFBFC, #ccc);
 }
+
+@media print, screen and (max-width: 740px) {
+  body {
+    padding:0;
+  }
+}
