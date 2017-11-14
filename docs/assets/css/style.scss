@@ -7,6 +7,10 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, table, pre, dl {
   color:#F8F8FF;
 }
 
+.wrapper {
+    width:740px;
+  }
+
 header{
    background-image: url("../images/header-bg.jpg");
    background-position: 100% 100%;
@@ -53,7 +57,7 @@ footer{
   }
   
   .wrapper {
-    width:640px;
+    width:740px;
     border-radius: 8px;
     box-shadow: rgba(#000, 0.2) 0 0 0 1px, rgba(#000, 0.45) 0 3px 10px;
   }
