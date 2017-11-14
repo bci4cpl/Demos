@@ -59,11 +59,21 @@
           </td>
         </tr>
       </table> 
-    {% if site.github.is_project_page %}
-      <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-    {% endif %}
-	  <p><a href="www.computational-psychiatry.com">The Computational Psychiatry Lab</a></p>
-      <p>Hosted on GitHub Pages</a></p>
+	  <table style="width:100%">
+        <tr>
+          <td style="width:33%;text-align:left;">
+            {% if site.github.is_project_page %}
+	          <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+            {% endif %}
+          </td>
+          <td style="width:33%;text-align:center;">
+            <p><a href="www.computational-psychiatry.com">The Computational Psychiatry Lab</a></p>
+          </td>
+          <td style="width:33%;text-align:right;">
+            <p>Hosted on GitHub Pages</a></p>
+          </td>
+        </tr>
+      </table>
     </footer>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
 
