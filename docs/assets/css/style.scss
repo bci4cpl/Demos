@@ -3,8 +3,8 @@
 
 @import "{{ site.theme }}";
 
-h1, h2, h3, h4, h5, h6 {
-  color:#FFFFFF;
+h1, h2, h3, h4, h5, h6 p, ul, ol, table, pre, dl {
+  color:#FFFFF0;
 }
 
 header{
