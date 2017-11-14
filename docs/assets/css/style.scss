@@ -4,19 +4,22 @@
 @import "{{ site.theme }}";
 
 header{
-   background-image: url("header-bg.jpg");
+   background-image: url("../images/header-bg.jpg");
    background-position: 100% 100%;
    background-repeat: no-repeat;
+   background-size:cover;
 }
 
 body{
-   background-image: url("body-bg.jpg");
+   background-image: url("../images/body-bg.jpg");
    background-position: 100% 100%;
    background-repeat: no-repeat;
+   background-size:cover;
 }
 
 footer{
-   background-image: url("footer-bg.png");
+   background-image: url("../images/footer-bg.png");
    background-position: 100% 100%;
    background-repeat: no-repeat;
+   background-size:cover;
 }
