@@ -5,4 +5,18 @@
 
 header{
    background-image: url("header-bg.jpg");
+   background-position: 100% 100%;
+   background-repeat: no-repeat;
+}
+
+body{
+   background-image: url("body-bg.jpg");
+   background-position: 100% 100%;
+   background-repeat: no-repeat;
+}
+
+footer{
+   background-image: url("footer-bg.png");
+   background-position: 100% 100%;
+   background-repeat: no-repeat;
 }
