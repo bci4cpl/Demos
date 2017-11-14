@@ -39,4 +39,16 @@ footer{
   body {
     padding:0;
   }
+  
+  .wrapper {
+    width:640px;
+    border-radius: 8px;
+    box-shadow: rgba(#000, 0.2) 0 0 0 1px, rgba(#000, 0.45) 0 3px 10px;
+  }
+  
+  footer {
+    border-radius: 8px;
+    padding:15px 20px;
+    width:640px;
+  }
 }
