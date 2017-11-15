@@ -19,7 +19,7 @@
     <div class="wrapper">
       <header {% unless site.description or site.github.project_tagline %} class="without-description" {% endunless %}>
         <br/>
-        <a href="http://www.computational-psychiatry.com/"><img src="cpl-logo.png" alt="The Computational Psychiatry Lab"></a>
+		<a href="http://www.computational-psychiatry.com/" target="_blank"><img src="cpl-logo.png" alt="The Computational Psychiatry Lab"></a>
         <!--<h1>{{ site.title | default: site.github.repository_name }}</h1>
         {% if site.description or site.github.project_tagline %}
           <p>{{ site.description | default: site.github.project_tagline }}</p>
@@ -39,32 +39,27 @@
 
       {{ content }}
 
+	  <br/>
       </section>
     </div>
     <footer>
        <table style="width:100%;border-style:none;">
         <tr style="border-style:none;">
           <td style="width:33%;text-align:center;border-style:none;">
-            <a href="http://in.bgu.ac.il/en/">
-              <img src="bgu-logo.png" alt="Ben-Gurion University of the Negev">
-            </a>
+		    <a href="http://in.bgu.ac.il/en/" target="_blank"><img src="bgu-logo.png" alt="Ben-Gurion University of the Negev"></a>
           </td>
           <td style="width:33%;text-align:center;border-style:none;">
-            <a href="http://in.bgu.ac.il/en/zlotowski/">
-              <img src="zlotowski-logo.png" alt="Zlotowski Center for Neuroscience">
-            </a>
+		    <a href="http://in.bgu.ac.il/en/zlotowski/" target="_blank"><img src="zlotowski-logo.png" alt="Zlotowski Center for Neuroscience"></a>
           </td>
           <td style="width:33%;text-align:center;border-style:none;">
-            <a href="http://in.bgu.ac.il/en/robotics/">
-              <img src="abc-logo.png" alt="ABC Robotics Initiative – Agricultural, Biological and Cognitive">
-            </a>
+		    <a href="http://in.bgu.ac.il/en/robotics/" target="_blank"><img src="abc-logo.png" alt="ABC Robotics Initiative – Agricultural, Biological and Cognitive"></a>
           </td>
 		</tr>
       </table>
 	  {% if site.github.is_project_page %}
 	    <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>|<a href="http://www.computational-psychiatry.com">Computational Psychiatry Lab</a></p>
           {% endif %}
-	  <p>Hosted on <a href="https://pages.github.com/">GitHub Pages</a>|Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+	  <p>Hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>|Theme by <a href="https://github.com/orderedlist" target="_blank">orderedlist</a></p>
     </footer>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
 
