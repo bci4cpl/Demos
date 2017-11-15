@@ -2,7 +2,7 @@
 
 Based on the paper: 
 
->[Shriki, O., Sompolinsky, H., & Lee, D. D. (2001). An information maximization approach to overcomplete and recurrent representations. In Advances in neural information processing systems (pp. 612-618).](http://papers.nips.cc/paper/1863-an-information-maximization-approach-to-overcomplete-and-recurrent-representations){:target="_blank"}
+><a href="http://papers.nips.cc/paper/1863-an-information-maximization-approach-to-overcomplete-and-recurrent-representations" target="_blank">Shriki, O., Sompolinsky, H., & Lee, D. D. (2001). An information maximization approach to overcomplete and recurrent representations. In Advances in neural information processing systems (pp. 612-618).</a>
 
 * [Infomax.m](https://github.com/bci4cpl/Demos/blob/master/Overcomplete%20Recurrent%20Infomax%20Neural%20Network/Infomax.m) contains a simple object-oriented implementation of the overcomplete recurrent Infomax neural network. 
 
