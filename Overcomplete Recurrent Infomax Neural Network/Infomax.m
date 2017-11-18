@@ -1,5 +1,5 @@
 classdef Infomax < handle
-    %INFOMAX Implements an InfoMax network
+    %INFOMAX Implements an Infomax network
     %   An over-complete neural network with recurrent connections based on
     %   the information maximization approach.
     %   
