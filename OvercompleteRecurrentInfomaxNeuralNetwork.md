@@ -6,6 +6,6 @@ Based on the paper:
 
 * [Infomax.m](https://github.com/bci4cpl/Demos/blob/master/Overcomplete%20Recurrent%20Infomax%20Neural%20Network/Infomax.m) contains a simple object-oriented implementation of the overcomplete recurrent Infomax neural network. 
 
-* [Demo.m](https://github.com/bci4cpl/Demos/blob/master/Overcomplete%20Recurrent%20Infomax%20Neural%20Network/Demo.m) implements the hexagon example from the aforementioned paper. 
+* [HexagonDemo.m](https://github.com/bci4cpl/Demos/blob/master/Overcomplete%20Recurrent%20Infomax%20Neural%20Network/HexagonDemo.m) implements the hexagon example from the aforementioned paper. 
 
 [⇐Back](./README.md)
